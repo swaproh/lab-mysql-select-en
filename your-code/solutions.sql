@@ -1,16 +1,16 @@
 use pubs;
 
-select * from authors;
-select * from discounts;
-select * from employee;
-select * from jobs;
-select * from pub_info;
-select * from publishers;
-select * from roysched;
-select * from sales;
-select * from stores;
-select * from titleauthor;
-select * from titles;
+#select * from authors;
+#select * from discounts;
+#select * from employee;
+#select * from jobs;
+#select * from pub_info;
+#select * from publishers;
+#select * from roysched;
+#select * from sales;
+#select * from stores;
+#select * from titleauthor;
+#select * from titles;
 
 ## Challenge 1 - Who Have Published What At Where?
 select authors.au_id as "AUTHOR ID", authors.au_lname as "LAST NAME", authors.au_fname as "FIRST NAME", titles.title as TITLE, publishers.pub_name as PUBLISHER
